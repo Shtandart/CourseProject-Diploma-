@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Заявка</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="#">
+
+  <header>
+    <h2>Заполните форму для регистрации заявки</h2>
+    
+  </header>
+  
+  <div>
+    <label class="desc" id="title1" for="Field1">Какую работу нужно выполнить?</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="20" tabindex="1">
+    </div>
+  </div>
+    
+  <div>
+    <label class="desc" id="title1" for="Field1">Категория</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="20" tabindex="1">
+    </div>
+  </div>
+    
+    
+  <div>
+    <label class="desc" id="title4" for="Field4">
+      Описание
+    </label>
+  
+    <div>
+      <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+    </div>
+  </div>
+    
+  <div>
+    <fieldset>
+    
+      <legend id="title5" class="desc">
+        Тип работы
+      </legend>
+      
+      <div>
+      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
+      	<div>
+      		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+      		<label class="choice" for="Field5_0">Фриланс</label>
+      	</div>
+        <div>
+        	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+        	<label class="choice" for="Field5_1">Временная по контракту</label>
+        </div>
+        
+      </div>
+    </fieldset>
+  </div>
+  
+  <div>
+    <fieldset>
+      <legend id="title6" class="desc">
+        Оплата
+      </legend>
+      <div>
+      	<input id="radioDefault_5" name="Field5" type="hidden" value="">
+      	<div>
+      		<input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+      		<label class="choice" for="Field5_0">Договорная</label>
+      	</div>
+        <div>
+        	<input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+        	<label class="choice" for="Field5_1">Определённая</label>
+        </div>
+        
+      </div>
+  
+  <div>
+    <label class="desc" id="title1" for="Field1">Месторасположение</label>
+    <div>
+      <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="20" tabindex="1">
+    </div>
+  </div>
+  
+  <div>
+    <label class="desc" id="title106" for="Field106">
+    	
+    </label>
+    <div>
+	Выберите дату
+    <select id="Field106" name="Field106" class="field select medium" tabindex="11"> 
+      <option value="First Choice">1.01.2020</option>
+      <option value="Second Choice">2.01.2020</option>
+      <option value="Third Choice">3.01.2020</option>
+    </select>
+    </div>
+  </div>
+  
+  <div>
+		<div>
+  		<input id="saveForm" name="saveForm" type="submit" value="Отправить">
+    </div>
+	</div>
+  
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</body>
+</html>
